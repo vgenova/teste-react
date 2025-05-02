@@ -8,7 +8,7 @@ on:
 jobs:
   deploy:
     runs-on: ubunto-20.04
-    step:
+    steps:
       - users: actions/checkout@v2
       - users: actions/setup-node@v1
         with:
